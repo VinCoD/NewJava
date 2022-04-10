@@ -7,7 +7,7 @@ import javax.swing.JLabel;
 
 public class MyLabel extends JLabel {
     MyLabel() {
-        this.setBounds(0, 5, 140, 40);
+        this.setBounds(2, 5, 140, 40);
         this.setText("Phone No.");
         this.setFont(new Font("TIMES NEW ROMAN", 0, 30));
         this.setBackground(Color.LIGHT_GRAY);
