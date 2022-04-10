@@ -43,8 +43,8 @@ public class MyPanel extends JPanel {
         this.setVisible(true);
         this.setLayout((LayoutManager)null);
         JLabel durationLabel = new JLabel();
-        durationLabel.setText("Duration ");
-        durationLabel.setBounds(35, 50, 100, 20);
+        durationLabel.setText("Duration");
+        durationLabel.setBounds(43, 65, 100, 20);
         durationLabel.setForeground(Color.black);
         durationLabel.setBackground(Color.green);
         this.timeLabel = new JLabel();
