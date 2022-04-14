@@ -39,7 +39,7 @@ public class MyPanel extends JPanel {
             }
         });
         this.setBackground(Color.lightGray);
-        this.setBounds(101, 90, 149, 150);
+        this.setBounds(101, 160, 149, 150);
         this.setVisible(true);
         this.setLayout((LayoutManager)null);
         JLabel durationLabel = new JLabel();
@@ -49,7 +49,7 @@ public class MyPanel extends JPanel {
         durationLabel.setBackground(Color.green);
         this.timeLabel = new JLabel();
         this.timeLabel.setText(this.hours_string + ":" + this.minutes_string + ":" + this.seconds_string);
-        this.timeLabel.setBounds(0, 90, 149, 70);
+        this.timeLabel.setBounds(0, 90, 149, 50);
         this.timeLabel.setFont(new Font("Verdana", 0, 20));
         this.timeLabel.setBorder(BorderFactory.createBevelBorder(1));
         this.timeLabel.setOpaque(true);
